@@ -6,10 +6,13 @@ import { BrowserRouter } from "react-router-dom";
 import Header from "./Header";
 import App from "./App.js";
 
+const basename = process.env.PUBLIC_URL || "/sample-work-for-web-designing";
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Header />
       <App />
     </BrowserRouter>

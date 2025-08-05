@@ -1,4 +1,20 @@
 <<<<<<< HEAD
+# Sample Work for Web Designing
+
+This repository contains my sample projects showcasing my skills in web designing and development.  
+I specialize in React.js and use JavaScript libraries such as GSAP, along with CSS frameworks like Bootstrap and Tailwind to build responsive and interactive user interfaces.
+
+Currently, this repository features two main projects built with React:  
+- A Todo List application  
+- A Calculator application  
+
+These projects demonstrate my proficiency in React, JavaScript, HTML, and CSS.  
+
+To try out these projects, follow the instructions below to run the app locally.
+
+
+=======
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -40,40 +56,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# sample-work-for-web-designing
-My Sample works for web designing with code
-I do web designing with coding languages like HTML and CSS and of course a programming language, JavaScript.
-I know the React library of JS, and you see them here.
-For the CSS I know the Bootstrap and Tailwind library and I can make the website responsive, Althoug I can do it naturally with CSS.
-These sample works show my skills in HTML, CSS and JS and their Libraries.
->>>>>>> fc4ba09a8545cb4d3d273e3b117a4bb175c0f11c

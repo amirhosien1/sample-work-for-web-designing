@@ -10,7 +10,7 @@ Currently, this repository features two main projects built with React:
 
 These projects demonstrate my proficiency in React, JavaScript, HTML, and CSS.  
 
-To try out these projects, follow the instructions below to run the app locally.
+To try out these projects, follow the instructions below to run the app locally or use [this link](https://amirhosien1.github.io/sample-work-for-web-designing) to see the project online.
 
 
 =======

@@ -1,0 +1,32 @@
+.buttons button{
+    width: 25%;
+    height: 25%;
+    /*padding: 10px;
+    */border: none;
+    border-width: 1px;
+    transition: border 1s ease-in;
+    -webkit-transition: border 1s ease-in;
+    -moz-transition: border 1s ease-in;
+    -ms-transition: border 1s ease-in;
+    -o-transition: border 1s ease-in;
+}
+
+.buttons button:hover{
+    border-style: solid;
+}
+
+.button-top-right{
+    border-top-right-radius: var(--buttons-radius);
+}
+
+.button-top-left{
+    border-top-left-radius: var(--buttons-radius);
+}
+
+.button-bottom-right{
+    border-bottom-right-radius: var(--buttons-radius);
+}
+
+.button-bottom-left{
+    border-bottom-left-radius: var(--buttons-radius);
+}

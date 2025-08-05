@@ -1,0 +1,59 @@
+li{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px
+}
+.text-container span{
+  font-weight: 600;
+  font-size: var(--normal-fs);
+  text-wrap: wrap;
+}
+
+.text-container{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  word-break: break-word;
+  flex-wrap: wrap;
+}
+
+hr{
+  color: black;
+  width: 80%;
+  opacity: 70%;
+}
+
+.task-part{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox{
+  min-height: 100%;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  z-index: 100;
+}
+
+.delete-box{
+  background-color: var(--danger);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 15px;
+}
+
+.delete-box:hover{
+  background-color: var(--danger-hover);
+  cursor: pointer;
+}

@@ -1,0 +1,63 @@
+:root{
+    --cal-width: 60%;
+    --cal-displayer-height: 20%;
+}
+
+.cal-container{
+    box-sizing: border-box;
+    height: calc(90vh - var(--header-height));
+    /* padding: 30px 0; */
+    width: var(--cal-width);
+    background-color: rgba(0, 162, 255, 0.38);
+    padding: 20px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cal-container div{
+    width: 100%;
+}
+@media screen and (max-width: 576px) {
+    :root{
+        --cal-width: 90%
+    }
+}
+@media screen and (max-width: 768px) {
+    :root{
+        --cal-width: 80%
+    }
+}
+.displayer{
+    height: var(--cal-displayer-height);
+    padding: 30px 40px;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.displayer span{
+    max-width: 100%;
+}
+
+.buttons{
+    height: calc(100% - var(--cal-displayer-height));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+

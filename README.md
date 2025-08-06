@@ -56,3 +56,23 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+# Releases
+
+## Release 1
+a project with the todo-list at the homepage and a fixed header at the top of the page with a logo, a menu button and another part that is not developed yet. The menu button open a bootstrap offcanvas that has two link to shift between todo-list and calculator pages.
+Header part is not responsive yet
+
+### `To do app`
+First you see a big title: Todo list. then you see a search box with a button. You can write your tasks in the search box and then click the button to add them to your list, Although you can use enter instead.
+at the list, items are sorted vertically and by their date modifying. items have been made of three parts:a checkbox, title, a delete button.
+you can put a done mark on your task by clicking on the checkbox
+and of course you'have understood that you can remove a task from your list by clicking on the delete button.
+This part is approximately responsive.
+
+### `Calculator`
+There is a medium-sized with a blue background calculator is in the middle of the page that has the numbers basic operations and one delete button for delete one by one.
+A button with a trash can icon is next to the display screen that delete all character.
+
+The calculator has a 63 chars limit and in the desktop size it would shrink if the char exceed the certain amounts(30, 41) but after 63 it doesn't allow you to enter anymore and gives you an alert.
+
+This page isn't responsive yet

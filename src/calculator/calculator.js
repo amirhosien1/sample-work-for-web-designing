@@ -17,13 +17,13 @@ function Calculator(){
                     <Button number={"4"} operations={operations} setOperations={setOperations}></Button>
                     <Button number={"5"} operations={operations} setOperations={setOperations}></Button>
                     <Button number={"6"} operations={operations} setOperations={setOperations}></Button>
-                    <ChangeDisplayBtn operations={operations} setOperations={setOperations} changeMod={"delete-all"}></ChangeDisplayBtn>
+                    <Button number={"+"} operations={operations} setOperations={setOperations}></Button>
                     <Button number={"7"} operations={operations} setOperations={setOperations}></Button>
                     <Button number={"8"} operations={operations} setOperations={setOperations}></Button>
                     <Button number={"9"} operations={operations} setOperations={setOperations}></Button>
-                    <Button className="button-bottom-left" number={"*"} operations={operations} setOperations={setOperations}></Button>
-                    <Button number={"+"} operations={operations} setOperations={setOperations}></Button>
-                    <Button number={"-"} operations={operations} setOperations={setOperations}></Button>
+                    <Button className="button-bottom-left" number={"-"} operations={operations} setOperations={setOperations}></Button>
+                    <Button number={"*"} operations={operations} setOperations={setOperations}></Button>
+                    <Button number={"0"} operations={operations} setOperations={setOperations}></Button>
                     <Button number={"/"} operations={operations} setOperations={setOperations}></Button>
                     <ChangeDisplayBtn className="button-bottom-right" changeMod="result" operations={operations} setOperations={setOperations}></ChangeDisplayBtn>
                     

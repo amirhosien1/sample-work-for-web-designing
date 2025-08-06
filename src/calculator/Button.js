@@ -36,7 +36,7 @@ export function ChangeDisplayBtn({ changeMod, className="", operations, setOpera
         
     }
     else if (changeMod === "delete-all"){
-        shape = "AC"
+        shape = <i className="bi bi-trash-fill text-danger"></i>
         callback = function(e){
             setOperations("")
 

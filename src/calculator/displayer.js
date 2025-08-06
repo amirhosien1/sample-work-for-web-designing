@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import { ChangeDisplayBtn } from "./Button";
 
 function Displayer({ operations, setOperations }){
 
@@ -50,6 +51,7 @@ function Displayer({ operations, setOperations }){
 }, [operations])
     return (
             <div ref={operationsRef} className="displayer">
+                <ChangeDisplayBtn className="border-0 bg-transparent " changeMod="delete-all" operations={operations} setOperations={setOperations}></ChangeDisplayBtn>
                 <span class='operations'>
                     {operations}
                 </span>

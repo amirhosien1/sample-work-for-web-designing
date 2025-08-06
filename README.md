@@ -75,7 +75,7 @@ Its on "All" mode by default that shows all of your tasks.
 
 "Done" ones as the name says are tasks that are done and has the checkbox marked.
 
-Your tasks and your last-used filter will save in your localStorage and it means that the next time you enter the site you can see your tasks that had added last time.
+Your tasks and your last-used filter will save in your localStorage and it means that the next time you enter the site you can see your tasks that is added last time.
 
 This part is approximately responsive.
 

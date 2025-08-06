@@ -85,4 +85,6 @@ A button with a trash can icon is next to the display screen that delete all cha
 
 The calculator has a 63 chars limit and in the desktop size it would shrink if the char exceed the certain amounts(30, 41) but after 63 it doesn't allow you to enter anymore and gives you an alert.
 
+Shrinking will done with gsap library.
+
 This page isn't responsive yet

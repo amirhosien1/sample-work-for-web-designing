@@ -66,11 +66,21 @@ Header part is not responsive yet
 First you see a big title: Todo list. then you see a search box with a button. You can write your tasks in the search box and then click the button to add them to your list, Although you can use enter instead.
 at the list, items are sorted vertically and by their date modifying. items have been made of three parts:a checkbox, title, a delete button.
 you can put a done mark on your task by clicking on the checkbox
-and of course you'have understood that you can remove a task from your list by clicking on the delete button.
+and of course you have understood that you can remove a task from your list by clicking on the delete button.
+
+bellow the list you see a fixed part that contains the filter.
+Its on "All" mode by default that shows all of your tasks.
+
+"Active" ones are the tasks that you haven't done yet and has the checkbox unmarked
+
+"Done" ones as the name says are tasks that are done and has the checkbox marked.
+
+Your tasks and your last-used filter will save in your localStorage and it means that the next time you enter the site you can see your tasks that had added last time.
+
 This part is approximately responsive.
 
 ### `Calculator`
-There is a medium-sized with a blue background calculator is in the middle of the page that has the numbers basic operations and one delete button for delete one by one.
+There is a medium-sized with a blue background calculator in the middle of the page that has the numbers, basic operations and one delete button for delete one by one.
 A button with a trash can icon is next to the display screen that delete all character.
 
 The calculator has a 63 chars limit and in the desktop size it would shrink if the char exceed the certain amounts(30, 41) but after 63 it doesn't allow you to enter anymore and gives you an alert.
